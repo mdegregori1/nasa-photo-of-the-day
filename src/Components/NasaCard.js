@@ -65,7 +65,7 @@ const Content = styled.div`
   align-items:center;
   justify-content: center;
   flex-wrap: wrap;
-  padding: 0 25px 0 25px;
+  padding: 0 30px 0 30px;
 
   
 
