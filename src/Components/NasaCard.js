@@ -9,7 +9,7 @@ const NasaCard = (props) => {
     <Container>
       <Cards>
         <Title>{props.cardTitle} </Title>
-        <Image top width="100%" src={props.cardUrl} alt="nasa stars" />
+        <Image top width="75%" src={props.cardUrl} alt="nasa stars" />
         <Content>
           <TextSub>{props.cardDate}</TextSub>
           <CardText>{props.cardDescription}</CardText>
@@ -52,7 +52,7 @@ const Title=styled.div`
 `;
 const Image= styled.img`
 
-  width: 100%;
+
   height: 70vh;
   padding: 25px 25px 0 25px;
   border-radius: 50px;
@@ -65,7 +65,7 @@ const Content = styled.div`
   align-items:center;
   justify-content: center;
   flex-wrap: wrap;
-  padding: 0 30px 0 30px;
+  padding: 0 200px 0 200px;
 
   
 
