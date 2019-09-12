@@ -1,9 +1,10 @@
+// Necessary Imports 
 import React from "react";
 import {
     CardText
   } from 'reactstrap';
 import styled from "styled-components"
-
+// Add function
 const NasaCard = (props) => {
   return (
     <Container>
@@ -19,9 +20,9 @@ const NasaCard = (props) => {
     </Container>
   );
 };
-
+//export variable 
 export default NasaCard;
-
+// design for Card Elements 
 const Container= styled.div`
   width: 100%;
   font-family: 'Titillium Web', sans-serif;

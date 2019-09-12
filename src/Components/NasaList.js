@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import NasaCard from "./NasaCard";
 
-
+// call function 
 function NasaImage() {
    
     const[pictures,setPictures] = useState("");
