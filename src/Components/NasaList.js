@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import NasaCard from "./NasaCard";
 
-//add to state
+
 function NasaImage() {
    
     const[pictures,setPictures] = useState("");
@@ -10,7 +10,7 @@ function NasaImage() {
   
     useEffect(() => {
       axios
-        .get(`https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY`)
+        .get(`https://api.nasa.gov/planetary/apod?api_key=AdAuFs8RudTQ3Sqhv3OLGPihAdj24c8dwHrtyg3C`)
         .then(response => {
         //   console.log("Nasa Image Data", response);
         const pictures = response.data
@@ -32,7 +32,6 @@ function NasaImage() {
     
       );
     }
-
 
 export default NasaImage;
 

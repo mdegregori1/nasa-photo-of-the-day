@@ -4,10 +4,11 @@ import NasaList from "./Components/NasaList";
 
 function App() {
   return (
-    <div className="App">
+    <div>
         <NasaList/>
     </div>
   );
 }
 
 export default App;
+
