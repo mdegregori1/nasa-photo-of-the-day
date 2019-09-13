@@ -10,7 +10,7 @@ const NasaCard = (props) => {
     <Container>
       <Cards>
         <Title>{props.cardTitle} </Title>
-        <Image top width="75%" src={props.cardUrl} alt="nasa stars" />
+        <Image top width="95%" src={props.cardUrl} alt="nasa stars" />
         <Content>
           <TextSub>{props.cardDate}</TextSub>
           <CardText>{props.cardDescription}</CardText>
@@ -20,7 +20,7 @@ const NasaCard = (props) => {
     </Container>
   );
 };
-//export variable 
+//export variable
 export default NasaCard;
 // design for Card Elements 
 const Container= styled.div`
@@ -66,7 +66,7 @@ const Content = styled.div`
   align-items:center;
   justify-content: center;
   flex-wrap: wrap;
-  padding: 0 200px 0 200px;
+  padding: 0 100px 0 100px;
 
   
 
@@ -77,6 +77,7 @@ const TextSub = styled.div`
 
   font-weight: bold;
   margin: 5px;
+  padding:25px;
 
 
 
