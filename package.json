@@ -10,7 +10,7 @@
     "react-scripts": "3.0.1",
     "react-transition-group": "^4.3.0",
     "reactstrap": "^8.0.1",
-    "styled-components": "^4.3.2"
+    "styled-components": "^4.4.0"
   },
   "scripts": {
     "start": "react-scripts start",

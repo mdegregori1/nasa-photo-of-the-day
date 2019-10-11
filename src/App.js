@@ -1,12 +1,13 @@
 import React from "react";
 import "./App.css";
-import NasaList from "./Components/NasaList";
+import NasaCall from "./Components/NasaCall";
 
 
 function App() {
   return (
     <div>
-        <NasaList/>
+        <NasaCall/>
+        
     </div>
   );
 }
